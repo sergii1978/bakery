@@ -1,0 +1,112 @@
+@media (max-width: 1400px) {
+  
+
+}
+
+
+@media (max-width: 1200px) {
+    .bike__title {
+      font-size: 47px;
+  }
+
+  .info {
+    margin-top: 50px;
+  }
+
+  .info__inner {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .info__img {
+    margin: 0 auto;
+  }
+
+  .info__list {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+
+  .info__item {
+    text-align: start;
+  }
+
+  .info__item-title {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .characteristics {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+
+  .characteristics__inner {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .table {
+  margin: 0 auto;
+  max-width: 745px;
+}
+
+  .characteristics__img {
+    margin-left: 0;
+    flex-basis: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-nav {
+    margin-right: 0px;
+  }
+
+
+}
+
+
+@media (max-width: 768px) {
+  .header-nav, .bike__wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bike__column:first-child {
+    max-width: 676px;
+    margin: 0 auto;
+  }
+
+  .article__inner {
+    margin: 0 auto;
+}
+
+}
+
+@media (max-width: 576px) {
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    padding: 20px 20px;
+    line-height: 10px;
+  }
+
+  .bike__description-inner {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .description__list {
+    flex-basis: 0;
+  }
+}
+
+@media (max-width: 320px) {
+
+}
