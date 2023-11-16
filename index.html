@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Game_Portal</title>
+        <title>Сучасна пекарня</title>
 
         <!-- favicon --> 
  	    <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -51,47 +51,73 @@
         <!-- header -->
         <header class="page-header">
             <div class="container">
-                <div class="page_nav_inner">
-                    <nav class="page_nav">
-                        <ul class="nav_list">
-                            <li><a href="">Про мене</a></li>
-                            <li><a href="">Міні-гра 2048</a></li>
-                            <li><a href="">Галерея</a></li>
-                        </ul>
-                    </nav>
-                </div>
+                <nav class="site_nav">
+                    <!-- <a href="/index.html" class="logo_link" title="На головну">
+                        <img src="images/svg/logo.svg" width="160" height="100" alt="Логотип сучасної пекарні">
+                        <span class="visually-hidden">На головну</span>
+                    </a> -->
 
-                <div class="header_text_inner">
-                    <h1>Про мене</h1>
-                    <p>Вивчаю фронтенд розробку.</p>
-                </div>
-            </div>
+                    <a href="/index.html" class="logo_link" title="На головну">
+                        bakery<br><span>shop</span>
+                    </a>
+
+                    <ul class="site_nav_list">
+                        <li class="nav_list_item">
+                            <a href="#" class="nav_link">Наші традиції</a>
+                        </li>
+                        <li class="nav_list_item">
+                            <a href="#" class="nav_link">Шеф-кухарі</a>
+                        </li>
+                        <li class="nav_list_item">
+                            <a href="#" class="nav_link">Формати</a>
+                        </li>
+                        <li class="nav_list_item">
+                            <a href="#" class="nav_link">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button type="button">Замовити дзвінок</button>
+            </div>   
         </header>
 
         <!-- main -->
         <main>
+            <section class="about">
+                <div class="container">
+                    <h1>сучасна <span>пекарня</span></h1>
+                </div>
+            </section>
+
+            <section class="about">
+                <div class="container">
+                    <h2></h2>
+                </div>
+            </section>
+
             <section class="about" id="about">
                 <div class="container">
-                    <div class="about_inner">
-                        <h2 class="about_heading">Міні-гра 2048</h2>
-                        <p>2048 — відеогра, початково браузерна, написана 19-річним італійським розробником Габріелем Чіруллі (італ. Gabriele Cirulli) мовою програмування JavaScript. Гра є числовою головоломкою з полем у формі квадрата 4x4 клітинки. Мета гри — складаючи плитки з числами, отримати плитку номіналу «2048», звідки й назва (але можна продовжити грати). Код гри відкритий і викладений на сторінці розробника в GitHub. </p>
-                    </div> 
+                    <h2></h2>
+                    <article>
+                        <h3></h3>
+                    </article>
+                    <article>
+                        <h3></h3>
+                    </article>
                 </div>
             </section>
 
-            <section class="gallery" id="benefits">
+            <section class="about" id="about">
                 <div class="container">
-                    <h2 class="gallery_heading">Галерея</h2>
-                    <p></p>
-                </div>
-            </section>
-
-            <section class="game">
-                <div class="container">
-                    <h2 class="visually-hidden">Гра</h2>
-                    <div class="game_cont">
-                        <img src="" alt="" class="temp_game_image">
-                    </div>
+                    <h2></h2>
+                    <article>
+                        <h3></h3>
+                    </article>
+                    <article>
+                        <h3></h3>
+                    </article>
+                    <article>
+                        <h3></h3>
+                    </article>
                 </div>
             </section>
         </main>
@@ -99,24 +125,44 @@
         <!-- footer -->
         <footer class="page_footer">
             <div class="container">
-                <form action="/form-page" method="post" autocomplete="on" name="common">
-                    <div class="form_inner">
-                        <label for="name">Ім'я:</label><br>
-                        <input type="text" id="name" name="user_name">
-                    </div>
+                <nav class="site_nav">
+                    <a href="" class="logo_link"><img src="" alt=""></a>
+                    <ul class="site_nav_list">
+                        <li class="nav_list_item">
+                            <a href="#" class="nav_link">Наші традиції</a>
+                        </li>
+                        <li class="nav_list_item">
+                            <a href="#" class="nav_link">Шеф-кухарі</a>
+                        </li>
+                        <li class="nav_list_item">
+                            <a href="#" class="nav_link">Формати</a>
+                        </li>
+                        <li class="nav_list_item">
+                            <a href="#" class="nav_link">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
 
-                    <div class="form_inner">
-                        <label for="email">Email:</label><br>
-                        <input type="email" id="email" name="user_email">
-                    </div>
-
-                    <div class="form_inner">
-                        <label for="summary">Summary:</label><br>
-                        <textarea name="summary" id="summary" cols="30" rows="10"></textarea>
-                    </div>
-
-                    <button type="submit" class="form_btn">Відправити</button>
-                </form>
+                <address>
+                    <ul class="user_list">
+                        <li class="user_contacs_list">
+                            <ul>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+                        </li>
+                        <li class="user_social_list">
+                            <ul>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </address>
+                <div class="legacy">
+                    <p class="legacy_text"><span></span></p>
+                </div>
             </div>
         </footer>
     </body>
