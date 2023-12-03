@@ -87,10 +87,10 @@
             <section class="advantages">
                 <div class="container">
                     <h2 class="visually-hidden">Наші переваги</h2>
-                    <ul>
-                        <li>Великий попит на ринку</li>
-                        <li>Доступні за бюджетом формати</li>
-                        <li>Досвідчена управлінська команда</li>
+                    <ul class="advantages_list">
+                        <li class="advantages_list_item">Великий попит на ринку</li>
+                        <li class="advantages_list_item">Доступні за бюджетом формати</li>
+                        <li class="advantages_list_item">Досвідчена управлінська команда</li>
                     </ul>
                 </div>
             </section>
@@ -99,11 +99,15 @@
                 <div class="container">
                     <div class="tradition_wrapper">
                         <div class="tradition_text">
-                            <h2>Новий формат традицій</h2>
+                            <h2 class="section_heading">Новий формат традицій</h2>
                             <p><span>shop bakery</span> — це пекарня, яка взяла все найкраще, і зберегла смак традиційної випічки та натуральність інгредієнтів.</p>
                             <p>Ми працюємо як найвідоміші мережі — <span>5 хвилин і замовлення готове</span>. А ще у наших пекарень стильний дизайн та висока якість обслуговування! </p>
                         </div>
-                        <img src="./images/baker-man@2x.jpg" alt="світлина кухаря" class="tradition_image">
+                        <picture class="tradition_image">
+                            <source class="tradition_image_large" srcset="./images/baker-man@2x.jpg" media="(min-width: 394px)">
+                            <source class="tradition_image_small" srcset="./images/baker-man.jpg" media="(max-width: 393px)">
+                            <img class="tradition_image_large" src="./images/baker-man@2x.jpg" width="786" height="932" alt="світлина кухаря">
+                        </picture>
                     </div>
                 </div>
             </section>

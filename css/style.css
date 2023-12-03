@@ -96,6 +96,10 @@ a:focus, a:link, a:active {
   max-width: 860px;
 }
 
+.nav_header-list {
+  margin: 0 10px;
+}
+
 .logo_link {
   color: var(--color-primary-light);
   font-size: 30px;
@@ -123,6 +127,8 @@ a:focus, a:link, a:active {
 .header_btn {
   width: 190px;
   height: 50px;
+
+  flex-shrink: 0;
 
   align-self: center;
 
@@ -175,7 +181,38 @@ a:focus, a:link, a:active {
     color: var(--color-brand-normal);
   }
 
+/* section advantages */
 
+.advantages {
+  padding: 16px 0;
+  font-size: 20px;
+  background-color: var(--color-brand-normal);
+}
+
+.advantages_list {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+}
+
+/* section traditions */
+/* .tradition_image {
+  flex-basis: 0;
+
+  height: auto;
+  max-width: 100%;
+
+} */
+
+.tradition_image_large {
+  flex-basis: 0;
+  width: 786px;
+  height: auto;
+  max-width: 100%;
+  border-radius: 400px 400px 0px 0px;
+}
 
 
 /* section formats */
