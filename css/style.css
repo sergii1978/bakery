@@ -67,6 +67,12 @@ a:focus, a:link, a:active {
   outline: none;
 }
 
+img {display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 .btn {
   display: block;
 }
@@ -286,7 +292,7 @@ a:focus, a:link, a:active {
 
 
 .chief-cookers .section_heading span {
-  color: var(--color-brand-normal); 
+  color: var(--color-brand-dark); 
 }
 
 .chief-cookers_list {
@@ -305,6 +311,16 @@ a:focus, a:link, a:active {
   gap: 30px;
 }
 
+.chief-cooker_card_heading {
+  margin-bottom: 16px;
+  margin-top: 0;
+
+  font-size: 40px;
+  font-weight: 600;
+
+  color: var(--color-primary-dark);
+}
+
 .chief-cooker_text {
   margin-bottom: 24px;
   max-width: 330px;
@@ -314,6 +330,15 @@ a:focus, a:link, a:active {
 
 .chief-cooker_text span {
  text-transform: uppercase;
+}
+
+.chief-cooker_image {
+  width: 240px;
+  height: auto;
+  max-width: 100%;
+  box-shadow: -16px 16px 0 0 var(--color-primary-light),-16px 16px 0 2px var(--color-secondary-dark);
+
+  border-radius: 2px 2px 2px 116px;
 }
 
 
