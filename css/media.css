@@ -66,6 +66,21 @@
     margin-right: 0px;
   }
 
+  .chief-cookers_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .chief-cookers_list_item {
+    margin: 0 auto;
+    flex-shrink: 0;
+  }
+
+  .chief-cooker_image {
+    flex-shrink: 0;
+  }
+
 
 }
 
@@ -81,9 +96,17 @@
     margin: 0 auto;
   }
 
-  .article__inner {
+    .article__inner {
+      margin: 0 auto;
+  }
+
+  .chief-cookers_list_item {
     margin: 0 auto;
-}
+  }
+
+  .formats_list_item {
+    margin: 0 auto;
+  }
 
 }
 
@@ -104,6 +127,24 @@
 
   .description__list {
     flex-basis: 0;
+  }
+
+  .chief-cooker_card {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .chief-cooker_image {
+    margin: 0 auto;
+  }
+
+  .heading-hide {
+    display: block;
+    text-align: center;
+  }
+
+  .chief-cooker_card_heading {
+    display: none;
   }
 }
 

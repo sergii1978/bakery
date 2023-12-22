@@ -298,6 +298,8 @@ img {display: block;
 .chief-cookers_list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px 30px;
 }
 
 .chief-cookers_list_item {
@@ -311,7 +313,7 @@ img {display: block;
   gap: 30px;
 }
 
-.chief-cooker_card_heading {
+.chief-cooker_card_heading, .heading-hide {
   margin-bottom: 16px;
   margin-top: 0;
 
@@ -341,17 +343,24 @@ img {display: block;
   border-radius: 2px 2px 2px 116px;
 }
 
+.heading-hide {
+  display: none;
+}
+
 
 /* section formats */
 .formats_list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .formats_list_item {
   width: 350px;
-  height: 444px;
+  max-width: 100%;
+  /* height: 444px; */
+  height: auto;
 
   color: #ffffff;
 
