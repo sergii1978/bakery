@@ -60,6 +60,19 @@
     margin-left: 0;
     flex-basis: 0;
   }
+
+  .feedback_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact_map {
+    max-width: 1200px;
+    width: 100%;
+
+    flex-shrink: 1;
+  }
 }
 
 
