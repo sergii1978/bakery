@@ -41,6 +41,10 @@
 
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/media.css">
+
+        <!-- Slick slider -->
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
     </head>
 
     <body>
@@ -143,79 +147,95 @@
             <section class="formats">
                 <div class="container">
                     <h2 class="section_heading">Формати</h2>
-                    <ul class="formats_list">
-                        <li class="formats_list_item">
-                            <article class="article_card">
-                                <div class="article_text">
-                                    <h3 class="article_heading">Horseshoe</h3>
-                                    <dl class="article_list">
-                                        <dt>Площа:</dt>
-                                        <dd> до 120 м2</dd>
-                                    </dl>
-                                    <dl class="article_list">
-                                        <dt>Меню:<dt>
-                                        <dd> розширене меню</dd>
-                                    </dl>
-                                    <dl class="article_list">
-                                        <dt>Штат:</dt>
-                                        <dd> 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</dd>
-                                    </dl>
-                                    <dl class="article_list">
-                                        <dt>Посадкові місця:</dt>
-                                        <dd>  є</dd>
-                                    </dl>
-                                </div>
-                            </article>
-                        </li>
+                    <!-- SWIPER -->
+                    <div class="formats_slider">
 
-                        <li class="formats_list_item">
-                            <article class="article_card">
-                                <div class="article_text">
-                                    <h3 class="article_heading">Handlebar</h3>
-                                    <dl class="article_list">
-                                        <dt>Площа:</dt>
-                                        <dd> до 120 м2</dd>
-                                    </dl>
-                                    <dl class="article_list">
-                                        <dt>Меню:<dt>
-                                        <dd> розширене меню</dd>
-                                    </dl>
-                                    <dl class="article_list">
-                                        <dt>Штат:</dt>
-                                        <dd> 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</dd>
-                                    </dl>
-                                    <dl class="article_list">
-                                        <dt>Посадкові місця:</dt>
-                                        <dd>  є</dd>
-                                    </dl>
-                                </div>
-                            </article>
-                        </li>
+                        <div class="formats_slider_container">
+                            <button class="slick-next slider-button next" type="button" >
+                                <svg class="swiper-button__img" width="16" height="16">
+                                    <use xLink:href="images/svg/icons.svg#icon-arrow"></use>
+                                </svg>
+                            </button>
+                            <ul class="formats_list slick">   
+                                <li class="formats_list_item">
+                                    <article class="article_card">
+                                        <div class="article_text">
+                                            <h3 class="article_heading">Horseshoe</h3>
+                                            <dl class="article_list">
+                                                <dt>Площа:</dt>
+                                                <dd> до 120 м2</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Меню:<dt>
+                                                <dd> розширене меню</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Штат:</dt>
+                                                <dd> 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Посадкові місця:</dt>
+                                                <dd>  є</dd>
+                                            </dl>
+                                        </div>
+                                    </article>
+                                </li>
+        
+                                <li class="formats_list_item">
+                                    <article class="article_card">
+                                        <div class="article_text">
+                                            <h3 class="article_heading">Handlebar</h3>
+                                            <dl class="article_list">
+                                                <dt>Площа:</dt>
+                                                <dd> до 120 м2</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Меню:<dt>
+                                                <dd> розширене меню</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Штат:</dt>
+                                                <dd> 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Посадкові місця:</dt>
+                                                <dd>  є</dd>
+                                            </dl>
+                                        </div>
+                                    </article>
+                                </li>
+        
+                                <li class="formats_list_item">
+                                    <article class="article_card">
+                                        <div class="article_text">
+                                            <h3 class="article_heading">Walrus</h3>
+                                            <dl class="article_list">
+                                                <dt>Площа:</dt>
+                                                <dd> до 120 м2</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Меню:<dt>
+                                                <dd> розширене меню</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Штат:</dt>
+                                                <dd> 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Посадкові місця:</dt>
+                                                <dd>  є</dd>
+                                            </dl>
+                                        </div>
+                                    </article>
+                                </li>
+                            </ul>
+                            <button class="slick-next slider-button" type="button">
+                                <svg class="swiper-button__img" width="16" height="16">
+                                    <use xLink:href="images/svg/icons.svg#icon-arrow"></use>
+                                </svg>
+                            </button>
+                    </div>
 
-                        <li class="formats_list_item">
-                            <article class="article_card">
-                                <div class="article_text">
-                                    <h3 class="article_heading">Walrus</h3>
-                                    <dl class="article_list">
-                                        <dt>Площа:</dt>
-                                        <dd> до 120 м2</dd>
-                                    </dl>
-                                    <dl class="article_list">
-                                        <dt>Меню:<dt>
-                                        <dd> розширене меню</dd>
-                                    </dl>
-                                    <dl class="article_list">
-                                        <dt>Штат:</dt>
-                                        <dd> 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</dd>
-                                    </dl>
-                                    <dl class="article_list">
-                                        <dt>Посадкові місця:</dt>
-                                        <dd>  є</dd>
-                                    </dl>
-                                </div>
-                            </article>
-                        </li>
-                    </ul>
                 </div>
             </section>
 
@@ -308,27 +328,21 @@
                             <li class="social_list_item">
                                 <a class="social_link" href="#">
                                     <svg class="social_icon" width="30" height="30">
-                                        <use xLink:href="images/svg/social_icons_sprite.svg#facebook"></use>
+                                        <use xLink:href="images/svg/icons.svg#icon-facebook"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li class="social_list_item">
                                 <a class="social_link" href="#">
                                     <svg class="social_icon" width="30" height="30">
-                                        <use xLink:href="images/svg/social_icons_sprite.svg#instagram"></use>
+                                        <use xLink:href="images/svg/icons.svg#icon-instagram"></use>
                                     </svg>
                                 </a>
-                            </li>
-                            <li>
-                                <span class="fa-stack fa-2x">
-                                    <i class="fa-solid fa-bookmark fa-stack-2x"></i> 
-                                    <i class="fa-solid fa-heart fa-stack-1x" style="margin-top: -0.5rem;"></i>
-                                </span>
                             </li>
                         </ul>
                     </address>
                     <div class="legacy">
-                        <a class="legacy_link" href="#">Політика конфіденційності</a>
+                        <a class="legacy_link" href="#" target="_blank">Політика конфіденційності</a>
                         <p class="legacy_info">&#169; 2023 Дані захищені</p>
                     </div>
                 </div>
@@ -375,6 +389,9 @@
                 </form>
             </div>
         </div>
-        <script src="js/"></script>
+        <script src="js/main.js"></script>
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/jquery-migrate-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
     </body>
 </html>
