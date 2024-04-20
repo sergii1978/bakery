@@ -354,15 +354,14 @@ img {display: block;
   text-align: center;
 }
 
-.formats_slider {
+.formats-section__slider {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 32px;
 }
 
-.formats_slider_container {
-  display: flex;
-  align-items: center;
+.formats-section__container {
+  overflow: hidden;
 }
 
 .formats_list {
@@ -371,26 +370,14 @@ img {display: block;
   margin-bottom: 32px;
 }
 
-.formats_list_item {
-  /* width: 350px; */
-  max-width: 100%; 
-  /* height: 444px; */
-  height: auto;
-
-  color: #ffffff;
-}
-
 .article_card {
   height: 444px;
-  width: 350px;
 
   padding: 24px;
 
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
-  background-image: linear-gradient(180deg, rgba(49, 38, 26, 0) 55.21%, rgba(49, 38, 26, 0.71) 72.92%);
 
   border-radius: 16px;
   background-position: center;
@@ -399,16 +386,17 @@ img {display: block;
   background-size: cover;
 }
 
-.formats_list_item:nth-of-type(1) .article_card {
-  background-image: url(/images/handlebar-format.jpg);
+
+.formats_list_item:nth-of-type(3n+1) .article_card {
+  background-image: linear-gradient(180deg, rgba(49, 38, 26, 0) 55.21%, rgba(49, 38, 26, 0.71) 72.92%), url(/images/handlebar-format.jpg);
 }
 
-.formats_list_item:nth-of-type(2) .article_card {
-  background-image: url(/images/horseshoe-format.jpg);
+.formats_list_item:nth-of-type(3n-1) .article_card {
+  background-image: linear-gradient(180deg, rgba(49, 38, 26, 0) 55.21%, rgba(49, 38, 26, 0.71) 72.92%), url(/images/horseshoe-format.jpg);
 }
 
-.formats_list_item:nth-of-type(3) .article_card {
-  background-image: url(/images/walrus-format.jpg);
+.formats_list_item:nth-of-type(3n) .article_card {
+  background-image: linear-gradient(180deg, rgba(49, 38, 26, 0) 55.21%, rgba(49, 38, 26, 0.71) 72.92%), url(/images/walrus-format.jpg);
 }
 
 
@@ -467,7 +455,7 @@ img {display: block;
   justify-content: space-between;
 }
 
-.slider-button {
+.carousel-button {
   width: 44px;
   height: 44px;
   padding: 0;
@@ -488,7 +476,7 @@ img {display: block;
   transform: rotate(180deg);
 } 
 
-.swiper-button:hover {
+.carousel-button:hover {
   background-color: var(--color-primary-dark);
   fill: var(--color-primary-light);
 }
@@ -508,7 +496,7 @@ img {display: block;
   border-radius: 50%;
 }
 
-.pagination__button:active {
+.pagination__button--active:active {
   background-color: var(--color-brand-normal);
 }
 
@@ -642,13 +630,6 @@ img {display: block;
   background-image: url("../images/decor-bread-large.png");
   background-repeat: no-repeat;
 }
-
-/* .footer_grid_wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
-  grid-template-rows: minmax(300px, 1fr);
-  grid-auto-rows: 2000px;
-} */
 
 
 .nav_list__footer {

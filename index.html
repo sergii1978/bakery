@@ -40,11 +40,10 @@
         <link rel="stylesheet" href="css/svg.css">
 
         <link rel="stylesheet" href="css/style.css">
+
         <link rel="stylesheet" href="css/media.css">
 
-        <!-- Slick slider -->
-        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
-        <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     </head>
 
     <body>
@@ -52,11 +51,6 @@
         <header class="page_header">
             <div class="container">
                 <nav class="nav_header">
-                    <!-- <a href="/index.html" class="logo_link" title="На головну">
-                    <img src="images/svg/logo.svg" width="160" height="100" alt="Логотип сучасної пекарні">
-                    <span class="visually-hidden">На головну</span>
-                    </a> -->
-
                     <a href="/index.html" class="logo_link" title="На головну">
                         shop<br><span>bakery</span>
                     </a>
@@ -148,16 +142,15 @@
                 <div class="container">
                     <h2 class="section_heading">Формати</h2>
                     <!-- SWIPER -->
-                    <div class="formats_slider">
-
-                        <div class="formats_slider_container">
-                            <button class="slick-next slider-button next" type="button" >
-                                <svg class="swiper-button__img" width="16" height="16">
-                                    <use xLink:href="images/svg/icons.svg#icon-arrow"></use>
-                                </svg>
-                            </button>
-                            <ul class="formats_list slick">   
-                                <li class="formats_list_item">
+                    <div class="formats-section__slider">
+                        <button class="formats-section__button carousel-button prev" type="button" >
+                            <svg class="swiper-button__img" width="16" height="16">
+                                <use xLink:href="images/svg/icons.svg#icon-arrow"></use>
+                            </svg>
+                        </button>
+                        <div class="formats-section__container swiper-container">
+                            <ul class="formats_list swiper-wrapper">   
+                                <li class="formats_list_item swiper-slide">
                                     <article class="article_card">
                                         <div class="article_text">
                                             <h3 class="article_heading">Horseshoe</h3>
@@ -181,7 +174,7 @@
                                     </article>
                                 </li>
         
-                                <li class="formats_list_item">
+                                <li class="formats_list_item swiper-slide">
                                     <article class="article_card">
                                         <div class="article_text">
                                             <h3 class="article_heading">Handlebar</h3>
@@ -205,7 +198,79 @@
                                     </article>
                                 </li>
         
-                                <li class="formats_list_item">
+                                <li class="formats_list_item swiper-slide">
+                                    <article class="article_card">
+                                        <div class="article_text">
+                                            <h3 class="article_heading">Walrus</h3>
+                                            <dl class="article_list">
+                                                <dt>Площа:</dt>
+                                                <dd> до 120 м2</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Меню:<dt>
+                                                <dd> розширене меню</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Штат:</dt>
+                                                <dd> 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Посадкові місця:</dt>
+                                                <dd>  є</dd>
+                                            </dl>
+                                        </div>
+                                    </article>
+                                </li>
+    
+                                <li class="formats_list_item swiper-slide">
+                                    <article class="article_card">
+                                        <div class="article_text">
+                                            <h3 class="article_heading">Horseshoe</h3>
+                                            <dl class="article_list">
+                                                <dt>Площа:</dt>
+                                                <dd> до 120 м2</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Меню:<dt>
+                                                <dd> розширене меню</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Штат:</dt>
+                                                <dd> 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Посадкові місця:</dt>
+                                                <dd>  є</dd>
+                                            </dl>
+                                        </div>
+                                    </article>
+                                </li>
+        
+                                <li class="formats_list_item swiper-slide">
+                                    <article class="article_card">
+                                        <div class="article_text">
+                                            <h3 class="article_heading">Handlebar</h3>
+                                            <dl class="article_list">
+                                                <dt>Площа:</dt>
+                                                <dd> до 120 м2</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Меню:<dt>
+                                                <dd> розширене меню</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Штат:</dt>
+                                                <dd> 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</dd>
+                                            </dl>
+                                            <dl class="article_list">
+                                                <dt>Посадкові місця:</dt>
+                                                <dd>  є</dd>
+                                            </dl>
+                                        </div>
+                                    </article>
+                                </li>
+        
+                                <li class="formats_list_item swiper-slide">
                                     <article class="article_card">
                                         <div class="article_text">
                                             <h3 class="article_heading">Walrus</h3>
@@ -229,13 +294,21 @@
                                     </article>
                                 </li>
                             </ul>
-                            <button class="slick-next slider-button" type="button">
-                                <svg class="swiper-button__img" width="16" height="16">
-                                    <use xLink:href="images/svg/icons.svg#icon-arrow"></use>
-                                </svg>
-                            </button>
-                    </div>
 
+                            <div class="pagination">
+                                <span class="pagination__button"></span>
+                                <span class="pagination__button"></span>
+                                <span class="pagination__button"></span>
+                                <span class="pagination__button"></span>
+                              </div>
+                        </div>
+
+                        <button class="formats-section__button carousel-button next" type="button">
+                            <svg class="swiper-button__img" width="16" height="16">
+                                <use xLink:href="images/svg/icons.svg#icon-arrow"></use>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </section>
 
@@ -389,9 +462,10 @@
                 </form>
             </div>
         </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/jquery-3.7.1.min.js"></script>
         <script src="js/jquery-migrate-3.4.1.min.js"></script>
-        <script type="text/javascript" src="js/slick.min.js"></script>
     </body>
 </html>
